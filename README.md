@@ -25,7 +25,7 @@ Options:
   -V, --version                  output the version number
   -f, --file <file>              file to parse location, should be a CSV with "address,amount" format
   -p, --privateKey <privateKey>  sender private key (no support for WIF format yet)
-  -t, --token <tokenContract>    token contract address
+  -t, --token <tokenId>          token token Id
   -tn, --testnet                 send through testnet
   -h, --help                     output usage information
 ```
