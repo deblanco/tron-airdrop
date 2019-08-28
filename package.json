@@ -1,0 +1,26 @@
+{
+  "name": "ontology-airdrop",
+  "version": "1.0.0",
+  "description": "A script to do Airdrops on Ontology blockchain",
+  "scripts": {
+    "start": "ts-node src/app.ts",
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Daniel Blanco Parla",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^3.0.0",
+    "regenerator-runtime": "^0.13.3",
+    "tronweb": "^2.7.1"
+  },
+  "devDependencies": {
+    "@types/long": "^4.0.0",
+    "@types/node": "^12.7.1",
+    "eslint": "^4.19.1",
+    "ts-node": "^7.0.1",
+    "tslint": "^5.11.0",
+    "tslint-config-standard": "^7.1.0",
+    "typescript": "^3.0.1"
+  }
+}

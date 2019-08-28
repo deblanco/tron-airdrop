@@ -1,0 +1,8 @@
+{
+    "extends": "tslint-config-standard",
+    "rules": {
+      "ter-indent": [
+        2, true
+      ]
+    }
+  }
